@@ -135,7 +135,7 @@ export default function Home() {
               <p className="pt-5">
                 My own portfolio website. You&apos;re looking at it now!
               </p>
-              <p className="pb-10">Built using React and Tailwind CSS</p>
+              <p className="pb-10">Built using React and Tailwind CSS.</p>
               <a
                 className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md"
                 href="https://github.com/RichieVu/web-portfolio"

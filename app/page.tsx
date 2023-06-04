@@ -1,7 +1,7 @@
 "use client";
 
 import Head from 'next/head'
-import { BsFillMoonStarsFill, BsMemory, BsPhone, BsFileText, BsEnvelopeAt } from 'react-icons/bs'
+import { BsFillMoonStarsFill, BsMemory, BsPhone, BsFileText, BsEnvelopeAt, BsMoonStars } from 'react-icons/bs'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Image from 'next/image'
 import pfp from '../public/pfp.jpg'
@@ -99,6 +99,21 @@ export default function Home() {
           
           <div>
           <div>
+              <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+                <div className='justify-center flex'>
+                  <BsMoonStars className='text-8xl'/>
+                </div>
+                <h3 className='text-2xl font-medium pt-8 pb-2 text-teal-500'>Lucid Logger</h3>
+                <p className='pt-5'>
+                  A lucid dreaming journaling app with ChatGPT api integration.
+                </p>
+                <p className='pb-8'> 
+                  Built using React.
+                </p>
+                <p>
+                  <span className='text-teal-500 text-lg'> Coming Soon! </span>
+                </p>
+              </div>
               <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
                 <div className='justify-center flex'>
                   <BsFileText className='text-8xl'/>

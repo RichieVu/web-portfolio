@@ -61,7 +61,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-black dark:text-white font-medium">
-              Hi, I'm
+              Hi, I&apos;m
               <span className="text-teal-600 dark:text-teal-500"> Richie</span>
             </h2>
             <h3 className="text-2xl pt-2 dark:text-gray-50">
@@ -76,7 +76,7 @@ export default function Home() {
               </span>
             </p>
             <p className="text-lg pt-2 pb-6 leading-6 text-gray-900 dark:text-gray-200">
-              Let's work together!
+              Let&apos;s work together!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-800 dark:text-gray-300">
@@ -105,7 +105,7 @@ export default function Home() {
               <span className="text-teal-500"> grow </span>
               is to
               <span className="text-teal-500"> do. </span>
-              These are some of the fun things I've built!
+              These are some of the fun things I&apos;ve built!
             </p>
           </div>
 
@@ -133,7 +133,7 @@ export default function Home() {
                 Portfolio Website
               </h3>
               <p className="pt-5">
-                My own portfolio website. You're looking at it now!
+                My own portfolio website. You&apos;re looking at it now!
               </p>
               <p className="pb-10">Built using React and Tailwind CSS</p>
               <a
@@ -235,7 +235,7 @@ export default function Home() {
               <span className="text-teal-500"> do </span>
               is to
               <span className="text-teal-500"> learn. </span>
-              These are some of the skills I've acquired!
+              These are some of the skills I&apos;ve acquired!
             </p>
           </div>
 

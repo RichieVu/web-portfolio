@@ -138,7 +138,7 @@ export default function Home() {
               <p className="pb-10">Built using React and Tailwind CSS</p>
               <a
                 className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md"
-                href="#"
+                href="https://github.com/RichieVu/web-portfolio"
                 target="_blank"
               >
                 View on Github

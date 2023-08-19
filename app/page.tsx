@@ -8,6 +8,7 @@ import {
   BsFileText,
   BsEnvelopeAt,
   BsMoonStars,
+  BsFingerprint,
 } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
@@ -112,15 +113,15 @@ export default function Home() {
           <div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <div className="justify-center flex">
-                <BsMoonStars className="text-8xl" />
+                <BsFingerprint className="text-8xl" />
               </div>
               <h3 className="text-2xl font-medium pt-8 pb-2 text-teal-500">
-                Lucid Logger
+                AI Anime Recommender
               </h3>
               <p className="pt-5">
-                A lucid dreaming journaling app with ChatGPT api integration.
+                Get recommended anime based on your tastes and watch history.
               </p>
-              <p className="pb-8">Built using React.</p>
+              <p className="pb-8">Built using React and ChatGPT Api.</p>
               <p>
                 <span className="text-teal-500 text-lg"> Coming Soon! </span>
               </p>

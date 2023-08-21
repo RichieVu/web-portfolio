@@ -121,7 +121,7 @@ export default function Home() {
               <p className="pt-5">
                 Get recommended anime based on your tastes and watch history.
               </p>
-              <p className="pb-8">Built using Next.js and OpenAI Api.</p>
+              <p className="pb-8">Built using Next.js, Tailwind CSS, and OpenAI Api.</p>
               <p>
                 <span className="text-teal-500 text-lg"> Coming Soon! </span>
               </p>

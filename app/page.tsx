@@ -7,28 +7,26 @@ import {
   BsPhone,
   BsFileText,
   BsEnvelopeAt,
-  BsMoonStars,
-  BsFingerprint,
 } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import pfp from "../public/pfp.jpg";
-import connect4 from "../public/connect4.png";
-import anime from "../public/anime.png"
-import anime_demo from "../public/anime_demo.gif"
+import pfp from "/public/pfp.jpg";
+import connect4 from "/public/connect4.png";
+import anime from "/public/anime.png"
+import anime_demo from "/public/anime_demo.gif"
 import { useState } from "react";
 import c from "../app/assets/c.png";
-import cpp from "../app/assets/cpp.png";
-import css from "../app/assets/css.png";
-import haskell from "../app/assets/haskell.png";
-import html from "../app/assets/html.png";
-import java from "../app/assets/java.png";
-import javascript from "../app/assets/javascript.png";
-import python from "../app/assets/python.png";
-import react from "../app/assets/react.png";
-import sql from "../app/assets/sql.png";
-import tailwind from "../app/assets/tailwind.png";
-import typescript from "../app/assets/typescript.png";
+import cpp from "/app/assets/cpp.png";
+import css from "/app/assets/css.png";
+import haskell from "/app/assets/haskell.png";
+import html from "/app/assets/html.png";
+import java from "/app/assets/java.png";
+import javascript from "/app/assets/javascript.png";
+import python from "/app/assets/python.png";
+import react from "/app/assets/react.png";
+import sql from "/app/assets/sql.png";
+import tailwind from "/app/assets/tailwind.png";
+import typescript from "/app/assets/typescript.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -121,7 +119,7 @@ export default function Home() {
                 AI Anime Recommender
               </h3>
               <div className="justify-center flex">
-                <Image src={anime_demo} width={500} height={500} alt={""} className="border-4 border-slate-800"/>
+                <Image src={anime_demo} width={500} height={500} alt={""} unoptimized={true} className="border-4 border-slate-800"/>
               </div>
               <p className="pt-5">
                 Get recommended anime based on your favorite genres or find an anime similar to one you&apos;ve watched!.

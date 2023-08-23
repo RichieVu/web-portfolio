@@ -124,7 +124,7 @@ export default function Home() {
                 <Image src={anime_demo} width={500} height={500} alt={""} className="border-4 border-slate-800"/>
               </div>
               <p className="pt-5">
-                Get recommended anime based on your favorite genres or find an anime similar to one you've watched!.
+                Get recommended anime based on your favorite genres or find an anime similar to one you&apos;ve watched!.
               </p>
               <p className="pb-8">Built using Next.js, CSS, and OpenAI GPT-3 Api.</p>
               <a

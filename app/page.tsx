@@ -52,7 +52,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md ml-8"
-                  href="/Richie_Vu_Resume.pdf"
+                  href="https://drive.google.com/file/d/1UgrAVkbXlRVXT1oVAD_02i1Rwaz6pqYl/view?usp=sharing"
                   target="_blank"
                 >
                   Resume

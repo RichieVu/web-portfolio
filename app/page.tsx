@@ -14,6 +14,8 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import pfp from "../public/pfp.jpg";
 import connect4 from "../public/connect4.png";
+import anime from "../public/anime.png"
+import anime_demo from "../public/anime_demo.gif"
 import { useState } from "react";
 import c from "../app/assets/c.png";
 import cpp from "../app/assets/cpp.png";
@@ -113,18 +115,25 @@ export default function Home() {
           <div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <div className="justify-center flex">
-                <BsFingerprint className="text-8xl" />
+                <Image src={anime} width={75} height={75} alt={""} />
               </div>
               <h3 className="text-2xl font-medium pt-8 pb-2 text-teal-500">
                 AI Anime Recommender
               </h3>
+              <div className="justify-center flex">
+                <Image src={anime_demo} width={500} height={500} alt={""} className="border-4 border-slate-800"/>
+              </div>
               <p className="pt-5">
-                Get recommended anime based on your tastes and watch history.
+                Get recommended anime based on your favorite genres or find an anime similar to one you've watched!.
               </p>
-              <p className="pb-8">Built using Next.js, Tailwind CSS, and OpenAI Api.</p>
-              <p>
-                <span className="text-teal-500 text-lg"> Coming Soon! </span>
-              </p>
+              <p className="pb-8">Built using Next.js, CSS, and OpenAI GPT-3 Api.</p>
+              <a
+                className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md"
+                href="https://github.com/RichieVu/anime-recommender-openai"
+                target="_blank"
+              >
+                View on Github
+              </a>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <div className="justify-center flex">
@@ -156,7 +165,7 @@ export default function Home() {
                 A computer opponent for Connect Four using DFS with a 2-player
                 version.
               </p>
-              <p className="pb-10">Built in Python.</p>
+              <p className="pb-10">Built using Python and Pygame.</p>
               <a
                 className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md"
                 href="https://github.com/RichieVu/Connect-Four-DFS"
@@ -177,7 +186,7 @@ export default function Home() {
                 messages from an online api.
               </p>
               <p className="pb-8">
-                Built 3 times in Kotlin, Swift, and React respectively.
+                Built 3 times using Kotlin, Swift, and React respectively.
               </p>
               <p>
                 <span className="text-teal-500 text-lg">

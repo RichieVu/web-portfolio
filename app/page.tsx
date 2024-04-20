@@ -12,8 +12,8 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import pfp from "/public/pfp.jpg";
 import connect4 from "/public/connect4.png";
-import anime from "/public/anime.png"
-import anime_demo from "/public/anime_demo.gif"
+import anime from "/public/anime.png";
+import anime_demo from "/public/anime_demo.gif";
 import { useState } from "react";
 import c from "../app/assets/c.png";
 import cpp from "/app/assets/cpp.png";
@@ -52,7 +52,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1UgrAVkbXlRVXT1oVAD_02i1Rwaz6pqYl/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Hq81v9vn9Gm_1oFpsITaEKZ-WWvgeyAp/view?usp=sharing"
                   target="_blank"
                 >
                   Resume
@@ -113,18 +113,52 @@ export default function Home() {
           <div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <div className="justify-center flex">
+                <BsFileText className="text-8xl" />
+              </div>
+              <h3 className="text-2xl font-medium pt-8 pb-2 text-teal-500">
+                Spotify Jamtop
+              </h3>
+              <p className="pt-5">
+                Jamtop is brings the Spotify Jam functionality to desktop. Users
+                can host their own room and listen to along with friends. Join a
+                synchronized playlist where everyone can add their own songs.
+              </p>
+              <p className="pb-10">
+                Built using Node.js, Javascript, Express, Socket.io and Spotify
+                Api.
+              </p>
+              <a
+                className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md"
+                href="https://github.com/RichieVu/Jamtop"
+                target="_blank"
+              >
+                View on Github
+              </a>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <div className="justify-center flex">
                 <Image src={anime} width={75} height={75} alt={""} />
               </div>
               <h3 className="text-2xl font-medium pt-8 pb-2 text-teal-500">
                 AI Anime Recommender
               </h3>
               <div className="justify-center flex">
-                <Image src={anime_demo} width={500} height={500} alt={""} unoptimized={true} className="border-4 border-slate-800"/>
+                <Image
+                  src={anime_demo}
+                  width={500}
+                  height={500}
+                  alt={""}
+                  unoptimized={true}
+                  className="border-4 border-slate-800"
+                />
               </div>
               <p className="pt-5">
-                Get recommended anime based on your favorite genres or find an anime similar to one you&apos;ve watched!.
+                Get recommended anime based on your favorite genres or find an
+                anime similar to one you&apos;ve watched!.
               </p>
-              <p className="pb-8">Built using Next.js, CSS, and OpenAI GPT-3 Api.</p>
+              <p className="pb-8">
+                Built using Next.js, CSS, and OpenAI GPT-3 Api.
+              </p>
               <a
                 className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md"
                 href="https://github.com/RichieVu/anime-recommender-openai"

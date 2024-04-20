@@ -12,8 +12,8 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import pfp from "/public/pfp.jpg";
 import connect4 from "/public/connect4.png";
-import anime from "/public/anime.png";
-import anime_demo from "/public/anime_demo.gif";
+import anime from "/public/anime.png"
+import anime_demo from "/public/anime_demo.gif"
 import { useState } from "react";
 import c from "../app/assets/c.png";
 import cpp from "/app/assets/cpp.png";
@@ -52,7 +52,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1Hq81v9vn9Gm_1oFpsITaEKZ-WWvgeyAp/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1UgrAVkbXlRVXT1oVAD_02i1Rwaz6pqYl/view?usp=sharing"
                   target="_blank"
                 >
                   Resume
@@ -139,22 +139,12 @@ export default function Home() {
                 AI Anime Recommender
               </h3>
               <div className="justify-center flex">
-                <Image
-                  src={anime_demo}
-                  width={500}
-                  height={500}
-                  alt={""}
-                  unoptimized={true}
-                  className="border-4 border-slate-800"
-                />
+                <Image src={anime_demo} width={500} height={500} alt={""} unoptimized={true} className="border-4 border-slate-800"/>
               </div>
               <p className="pt-5">
-                Get recommended anime based on your favorite genres or find an
-                anime similar to one you&apos;ve watched!.
+                Get recommended anime based on your favorite genres or find an anime similar to one you&apos;ve watched!.
               </p>
-              <p className="pb-8">
-                Built using Next.js, CSS, and OpenAI GPT-3 Api.
-              </p>
+              <p className="pb-8">Built using Next.js, CSS, and OpenAI GPT-3 Api.</p>
               <a
                 className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md"
                 href="https://github.com/RichieVu/anime-recommender-openai"

@@ -110,7 +110,27 @@ export default function Home() {
             </p>
           </div>
 
+          
           <div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <div className="justify-center flex">
+                <BsFileText className="text-8xl" />
+              </div>
+              <h3 className="text-2xl font-medium pt-8 pb-2 text-teal-500">
+                Spotify Jamtop
+              </h3>
+              <p className="pt-5">
+              Jamtop is brings the Spotify Jam functionality to desktop. Users can host their own room and listen to along with friends. Join a synchronized playlist where everyone can add their own songs.
+              </p>
+              <p className="pb-10">Built using Node.js, Javascript, Express, Socket.io and Spotify Api.</p>
+              <a
+                className="bg-gradient-to-r from-cyan-700 to-teal-700 text-white px-4 py-2 rounded-md"
+                href="https://github.com/RichieVu/Jamtop"
+                target="_blank"
+              >
+                View on Github
+              </a>
+            </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <div className="justify-center flex">
                 <Image src={anime} width={75} height={75} alt={""} />

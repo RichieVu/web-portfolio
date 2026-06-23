@@ -369,11 +369,12 @@ export default function Home() {
               <div className="group bg-white/60 dark:bg-slate-800/40 backdrop-blur-md rounded-2xl p-10 border border-slate-200 dark:border-slate-700 hover:border-teal-500/50 transition-colors shadow-sm">
                 <div className="prose dark:prose-invert max-w-2xl text-slate-600 dark:text-slate-400 border-l-4 border-teal-500 pl-6 py-2">
                   <p className="leading-relaxed text-lg italic">
-                    "I hope that you were motivated by a desire for knowledge, a
-                    yearning to see what can arise from a universe&apos;s
-                    exhalation. Because even if a universe&apos;s lifespan is
-                    calculable, the variety of life that is generated within it
-                    is not." — Ted Chiang, Exhalation
+                    &quot;I hope that you were motivated by a desire for
+                    knowledge, a yearning to see what can arise from a
+                    universe&apos;s exhalation. Because even if a
+                    universe&apos;s lifespan is calculable, the variety of life
+                    that is generated within it is not.&quot; — Ted Chiang,
+                    Exhalation
                   </p>
                 </div>
               </div>

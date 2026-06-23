@@ -136,7 +136,7 @@ export default function Home() {
           <section className="py-12 md:py-16 mb-8">
             <div className="p-8 md:p-10 rounded-3xl bg-white/40 dark:bg-slate-800/20 backdrop-blur-xl border border-slate-200/50 dark:border-slate-700/50 shadow-sm">
               <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-                Hiya, I'm Richie!
+                Hiya, I&apos;m Richie!
               </h3>
               <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
                 I am a Full-Stack Data Scientist and Systems Architect focused
@@ -153,7 +153,7 @@ export default function Home() {
                 fiction novel.
               </p>
               <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-                I'm a learner, a doer, an explorer of a world hidden by the
+                I am a learner, a doer, an explorer of a world hidden by the
                 magnitudes of data.
               </p>
             </div>
@@ -370,10 +370,10 @@ export default function Home() {
                 <div className="prose dark:prose-invert max-w-2xl text-slate-600 dark:text-slate-400 border-l-4 border-teal-500 pl-6 py-2">
                   <p className="leading-relaxed text-lg italic">
                     "I hope that you were motivated by a desire for knowledge, a
-                    yearning to see what can arise from a universe’s exhalation.
-                    Because even if a universe’s lifespan is calculable, the
-                    variety of life that is generated within it is not." — Ted
-                    Chiang, Exhalation
+                    yearning to see what can arise from a universe&apos;s
+                    exhalation. Because even if a universe&apos;s lifespan is
+                    calculable, the variety of life that is generated within it
+                    is not." — Ted Chiang, Exhalation
                   </p>
                 </div>
               </div>

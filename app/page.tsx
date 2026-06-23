@@ -15,7 +15,7 @@ import {
 } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import pfp from "/public/pfp1.jpg";
+import pfp from "../public/pfp1.jpg";
 import { useState } from "react";
 
 export default function Home() {
@@ -373,8 +373,8 @@ export default function Home() {
                     knowledge, a yearning to see what can arise from a
                     universe&apos;s exhalation. Because even if a
                     universe&apos;s lifespan is calculable, the variety of life
-                    that is generated within it is not.&quot; — Ted Chiang,
-                    Exhalation
+                    that is generated within it is not.&quot;
+                    <br />— Ted Chiang, Exhalation
                   </p>
                 </div>
               </div>

@@ -15,7 +15,7 @@ import {
 } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import pfp from "../public/pfp1.jpg";
+import pfp from "@/public/pfp1.jpg";
 import { useState } from "react";
 
 export default function Home() {

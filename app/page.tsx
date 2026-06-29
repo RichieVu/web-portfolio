@@ -15,7 +15,6 @@ import {
 } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import pfp from "/pfp1.jpg";
 import { useState } from "react";
 
 export default function Home() {
@@ -123,7 +122,7 @@ export default function Home() {
             {/* Profile Image Container */}
             <div className="w-48 h-48 md:w-72 md:h-72 relative rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 flex-shrink-0 rotate-3 hover:rotate-0 transition-transform duration-500">
               <Image
-                src={pfp}
+                src="/pfp1.jpg"
                 fill
                 className="object-cover"
                 alt="Richie Vu Profile Picture"

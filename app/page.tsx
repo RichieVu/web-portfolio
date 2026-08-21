@@ -24,7 +24,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Richie Vu | Portfolio</title>
-        <meta name="description" content="Full Stack Data Scientist" />
+        <meta name="description" content="Data and AI Automation Engineer" />
       </Head>
 
       <main className="relative bg-slate-50 text-slate-800 dark:bg-[#0B1120] dark:text-slate-300 min-h-screen transition-colors duration-500 font-sans selection:bg-teal-300 selection:text-teal-900 overflow-hidden">
@@ -55,12 +55,12 @@ export default function Home() {
             {/* Content Container */}
             <div className="flex-1 w-full">
               <div className="inline-block px-4 py-1.5 mb-6 rounded-full border border-teal-200 dark:border-teal-900/50 bg-teal-50 dark:bg-teal-900/20 text-teal-700 dark:text-teal-300 text-sm font-semibold tracking-wide">
-                Westminster, CA
+                Orange County, CA
               </div>
               <h2 className="text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6">
-                Full Stack <br className="hidden md:block" />
+                Data and AI <br className="hidden md:block" />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-cyan-500 dark:from-teal-400 dark:to-cyan-300">
-                  Data Scientist.
+                  Automation Engineer.
                 </span>
               </h2>
               <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 mb-8 max-w-2xl leading-relaxed">
@@ -92,28 +92,12 @@ export default function Home() {
                     <AiFillLinkedin /> LinkedIn
                   </a>
                   <a
-                    href="https://github.com/RichieVu"
+                    href="mailto:richie.p.vu@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-5 py-3 rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-slate-200 dark:border-slate-700 hover:text-teal-600 dark:hover:text-teal-400 transition-all hover:-translate-y-1 font-medium text-slate-700 dark:text-slate-300"
                   >
-                    <AiFillGithub /> GitHub
-                  </a>
-                </div>
-
-                {/* Row 2: Contact Info */}
-                <div className="flex flex-wrap items-center gap-3">
-                  <a
-                    href="mailto:richie.p.vu@gmail.com"
-                    className="flex items-center gap-2 px-5 py-3 rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-slate-200 dark:border-slate-700 hover:text-teal-600 dark:hover:text-teal-400 transition-all hover:-translate-y-1 font-medium text-slate-600 dark:text-slate-400"
-                  >
                     <BsEnvelopeAt /> richie.p.vu@gmail.com
-                  </a>
-                  <a
-                    href="tel:7149003453"
-                    className="flex items-center gap-2 px-5 py-3 rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-slate-200 dark:border-slate-700 hover:text-teal-600 dark:hover:text-teal-400 transition-all hover:-translate-y-1 font-medium text-slate-600 dark:text-slate-400"
-                  >
-                    <BsTelephone /> (714) 900-3453
                   </a>
                 </div>
               </div>
@@ -135,14 +119,23 @@ export default function Home() {
           <section className="py-12 md:py-16 mb-8">
             <div className="p-8 md:p-10 rounded-3xl bg-white/40 dark:bg-slate-800/20 backdrop-blur-xl border border-slate-200/50 dark:border-slate-700/50 shadow-sm">
               <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
-                Hiya, I&apos;m Richie!
+                I&apos;m Richie!
               </h3>
               <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
-                I am a Full-Stack Data Scientist and Systems Architect focused
-                on turning operational bottlenecks into automated, predictive
-                ecosystems. Currently completing my MS in Data Science, I thrive
-                in the space where heavy backend infrastructure meets advanced
-                statistical modeling to deliver tangible, enterprise-wide value.
+                I build the AI systems, and the data underneath them that makes
+                them work.
+              </p>
+              <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                At Envoy Air I own Atlas, the automation platform running at
+                four airport hubs: agents on live operations data, intelligent
+                ticketing systems, forecasting that plans coverage before the
+                gap hits. Over thirteen systems, built end to end.
+              </p>
+              <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+                Finishing an MS in Data Analytics specialization in Data Science
+                at WGU this fall. Happy to talk agentic systems, forecasting, or
+                working with operations teams to turn the problems they live
+                with into automation that enables secured efficiency.
               </p>
               <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
                 When I step away from the keyboard, I treat my hobbies with the
@@ -179,24 +172,32 @@ export default function Home() {
                     </span>
                   </div>
                   <p className="text-teal-600 dark:text-teal-400 font-medium mb-4">
-                    Full Stack Data Architect and Analyst
+                    Data and AI Automation Engineer
                   </p>
                   <ul className="list-disc list-outside ml-4 text-slate-600 dark:text-slate-400 text-sm leading-relaxed space-y-3">
                     <li>
-                      Designed and deployed Atlas, a proprietary automation
-                      platform across four major airport hubs, automating
-                      395,700+ actions and delivering $510,000+ in value within
-                      12 months.
+                      Own Atlas, the automation platform running at LAX, ORD,
+                      DFW, and MIA: 13+ production systems and 50+ automated
+                      workflows, built end to end. 395,700+ autonomous actions,
+                      17,300+ labor hours returned, and $510,000+ in value in
+                      its first 12 months.
                     </li>
                     <li>
-                      Built Power Platform pipelines to automate ticketing and
-                      communications, eliminating critical administrative
-                      bottlenecks.
+                      Architected Atlas multi-tenant on modular SQL schemas and
+                      a Blazor app with Entra ID scoping; executives see the
+                      network, each station sees only its own data, and a new
+                      station is a configuration change rather than a rebuild.
                     </li>
                     <li>
-                      Architected SQL databases and a Blazor app to migrate
-                      legacy SharePoint data into structured environments for
-                      real-time telemetry.
+                      Forecast staffing gaps in at 12.4 MAE, feeding bid
+                      construction so coverage is planned ahead of demand rather
+                      than backfilled with overtime.
+                    </li>
+                    <li>
+                      Achieved record compliance by automating badge renewals,
+                      training completion, hearing tests, and drug screening,
+                      then deployed the same systems to other stations at their
+                      request.
                     </li>
                   </ul>
                 </div>
@@ -224,9 +225,11 @@ export default function Home() {
                       regression techniques.
                     </li>
                     <li>
-                      Maintaining a 4.0 GPA with rigorous coursework in Data
-                      Management, Analytics Programming, and statistical
-                      modeling.
+                      Advanced Analytics (neural networks, computer vision,
+                      NLP), Machine Learning, Data Mining, Predictive Modeling,
+                      Data Management, Analytics Programming. Built and
+                      evaluated neural network image classifiers, text models,
+                      and ARIMA forecasts in Python.
                     </li>
                   </ul>
                 </div>
@@ -241,7 +244,7 @@ export default function Home() {
                       Orange Coast College
                     </h4>
                     <span className="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300 rounded-full">
-                      Dec 2019 - May 2025
+                      Dec 2019 - May 2022 | Sep 2024 - May 2025
                     </span>
                   </div>
                   <p className="text-teal-600 dark:text-teal-400 font-medium mb-4">
@@ -257,6 +260,32 @@ export default function Home() {
                       Strengthened foundational mathematics crucial for machine
                       learning and predictive modeling by breaking down complex
                       concepts for hundreds of students.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* OCC Tutoring */}
+              <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white dark:border-[#0B1120] bg-slate-300 dark:bg-slate-600 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-colors group-hover:bg-teal-400"></div>
+                <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 md:p-8 rounded-2xl bg-white/60 dark:bg-slate-800/40 backdrop-blur-xl border border-slate-100 dark:border-slate-700 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:hover:bg-slate-800/60">
+                  <div className="flex justify-between items-center mb-2">
+                    <h4 className="text-xl font-bold text-slate-900 dark:text-white">
+                      Headstarter
+                    </h4>
+                    <span className="text-xs font-bold px-3 py-1 bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300 rounded-full">
+                      July 2024 - Sep 2024
+                    </span>
+                  </div>
+                  <p className="text-teal-600 dark:text-teal-400 font-medium mb-4">
+                    Software Engineer Fellow
+                  </p>
+                  <ul className="list-disc list-outside ml-4 text-slate-600 dark:text-slate-400 text-sm leading-relaxed space-y-3">
+                    <li>
+                      Built FlexiFormat, a web scraping tool with a
+                      retrieval-augmented generation (RAG) system for querying
+                      scraped content, plus Stripe payment integration, in
+                      Node.js and TailwindCSS.
                     </li>
                   </ul>
                 </div>
@@ -280,77 +309,17 @@ export default function Home() {
                   <ul className="list-disc list-outside ml-4 text-slate-600 dark:text-slate-400 text-sm leading-relaxed space-y-3">
                     <li>
                       Built a robust foundation in software engineering and data
-                      structures, graduating with a 3.42 GPA.
+                      structures.
                     </li>
                     <li>
-                      Completed specialized technical coursework spanning
-                      Applied Machine Learning, Relational Databases, and the
-                      Analysis of Algorithms.
+                      Applied Machine Learning, Relational Databases, Analysis
+                      of Algorithms, Principles of Computer Systems Design,
+                      Technical Writing
+                    </li>
+                    <li>
+                      Collegiate Overwatch Main Support for UCSC Varsity Team
                     </li>
                   </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Featured Projects */}
-          <section className="py-20">
-            <h3 className="text-sm font-bold uppercase tracking-widest text-teal-600 dark:text-teal-400 mb-12 flex items-center gap-4">
-              <span className="w-8 h-[2px] bg-teal-600 dark:bg-teal-400"></span>{" "}
-              Featured Work
-            </h3>
-
-            <div className="grid md:grid-cols-2 gap-8">
-              {/* Project 1 */}
-              <div className="group block relative rounded-3xl p-[1px] bg-gradient-to-b from-slate-200 to-slate-100 dark:from-slate-700 dark:to-slate-800 hover:from-teal-500 hover:to-cyan-500 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(20,184,166,0.3)]">
-                <div className="bg-white dark:bg-slate-900 h-full rounded-[23px] p-8 flex flex-col justify-between">
-                  <div>
-                    <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-3 flex justify-between items-center">
-                      Spotify Jamtop{" "}
-                      <span className="text-xs font-normal text-slate-400">
-                        Feb 2024 - July 2024
-                      </span>
-                    </h4>
-                    <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed text-sm">
-                      Built a Spotify API web app with Node.js, Express, and
-                      Socket.io for synchronous, real-time music streaming.
-                    </p>
-                  </div>
-                  <a
-                    href="https://github.com/RichieVu/Jamtop"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-teal-600 dark:text-teal-400 font-bold inline-flex items-center gap-2 group-hover:gap-3 transition-all"
-                  >
-                    View Repository <BsArrowUpRight className="text-xs" />
-                  </a>
-                </div>
-              </div>
-
-              {/* Project 2 */}
-              <div className="group block relative rounded-3xl p-[1px] bg-gradient-to-b from-slate-200 to-slate-100 dark:from-slate-700 dark:to-slate-800 hover:from-teal-500 hover:to-cyan-500 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(20,184,166,0.3)]">
-                <div className="bg-white dark:bg-slate-900 h-full rounded-[23px] p-8 flex flex-col justify-between">
-                  <div>
-                    <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-3 flex justify-between items-center">
-                      Portfolio Website{" "}
-                      <span className="text-xs font-normal text-slate-400">
-                        Present
-                      </span>
-                    </h4>
-                    <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed text-sm">
-                      My personal engineering portfolio. Designed as a highly
-                      interactive, single-page web application featuring
-                      responsive layouts and glassmorphism UI elements.
-                    </p>
-                  </div>
-                  <a
-                    href="https://github.com/RichieVu/web-portfolio"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-teal-600 dark:text-teal-400 font-bold inline-flex items-center gap-2 group-hover:gap-3 transition-all"
-                  >
-                    View Repository <BsArrowUpRight className="text-xs" />
-                  </a>
                 </div>
               </div>
             </div>
@@ -469,7 +438,8 @@ export default function Home() {
                       <li>Dallas, TX</li> <li>Houston, TX</li>
                       <li>Chicago, IL</li> <li>Orlando, FL</li>{" "}
                       <li>Boston, MA</li> <li>Maui, HI</li> <li>Phoenix, AZ</li>{" "}
-                      <li>Salt Lake City, UT</li> <li>Philly, PA</li>
+                      <li>Salt Lake City, UT</li> <li>Philly, PA</li>{" "}
+                      <li>NYC, NY</li>
                     </ul>
                   </div>
                   <div>
